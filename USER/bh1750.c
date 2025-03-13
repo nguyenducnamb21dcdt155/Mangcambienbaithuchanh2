@@ -44,7 +44,7 @@ void BH1750_Init(void) {
 }
 
 void BH1750_StartMeasurement(void) {
-    I2C_Write(BH1750_ADDRESS, 0x10);  // Ch? d? do liên t?c, d? phân gi?i cao
+    I2C_Write(BH1750_ADDRESS, 0x10);  // Che do do liên tuc, do phân giai cao
 }
 
 uint16_t BH1750_ReadLight(void) {

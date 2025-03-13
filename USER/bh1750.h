@@ -3,7 +3,7 @@
 
 #include "stm32f10x.h"
 
-#define BH1750_ADDRESS  0x23  // Ð?a ch? m?c d?nh khi ADDR n?i GND
+#define BH1750_ADDRESS  0x23  // Ðia chi mac dinh khi ADDR noi GND
 
 void BH1750_Init(void);
 void BH1750_StartMeasurement(void);
